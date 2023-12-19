@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #642B73;
+    background: -webkit-linear-gradient(to right, #C6426E, #642B73);
+    background: linear-gradient(to right, #C6426E, #642B73);
+}
+
+.custom {
+
+    background: transparent;
+    border: 0;
+}
+
+.custom2 {
+    background-color: #C6426E !important;
+}
+
+.card {
+    border: 0;
+    background-color: transparent;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 15px;
+}
