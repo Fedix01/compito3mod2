@@ -12,8 +12,16 @@ body {
     border: 0;
 }
 
-.custom2 {
+.navCustom {
+    overflow: hidden;
     background-color: #C6426E !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.card-text {
+    font-size: 12px !important;
 }
 
 .card {
@@ -24,4 +32,30 @@ body {
 .card-text {
     text-align: center;
     font-size: 15px;
+}
+
+.customcard {
+    margin-top: 150px;
+    margin-left: 40px;
+}
+
+.container {
+    position: relative;
+}
+
+.container .row {
+    align-items: baseline;
+}
+
+.container .btn-outline-light {
+    position: absolute;
+    right: 10px;
+    top: 70px
+}
+
+.container .btn-primary {
+    margin-left: 28px;
+    background-color: black;
+    border: black;
+    font-size: 12px;
 }
