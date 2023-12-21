@@ -14,10 +14,20 @@ body {
 
 .navCustom {
     overflow: hidden;
-    background-color: #C6426E !important;
+    background-color: black !important;
     position: fixed;
+    z-index: 1;
     top: 0;
     width: 100%;
+}
+
+.navbar-brand {
+    pointer-events: none;
+}
+
+.navCustom a:hover {
+    border-radius: 30px;
+    background-color: #C6426E;
 }
 
 .card-text {
@@ -58,4 +68,8 @@ body {
     background-color: black;
     border: black;
     font-size: 12px;
+}
+
+.card-body {
+    text-align: center;
 }
