@@ -1,4 +1,4 @@
-let myBtn = document.querySelectorAll(".btn");
+let myBtn = document.querySelectorAll(".special");
 console.log(myBtn);
 let content = document.querySelector(".container");
 
